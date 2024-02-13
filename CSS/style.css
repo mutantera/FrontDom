@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#nav{
+    background-color: rgb(220, 56, 56);
+    display: grid;
+    grid-template-columns: 50% 10% 10% 10% 10%;
+    grid-template-rows: 100px;
+    align-items: center;
+    justify-items: center;
+}
+
+#nav h1{
+    justify-self: start;
+}
+
+/* #main{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    display: grid; */
+    /* align-items: center;
+    justify-content: space-evenly; */
+/* }
+.elem{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(221, 68, 68);
+    border: 3px solid #000;
+} */
+/* h1{
+    width: 100%;
+    height: 100%;
+}
+h1::first-line{
+    color: red;
+}
+
+h1::first-letter{
+    font-size: 120px;
+}
+
+h1::selection{
+    background-color: rgb(199, 121, 31);
+} */
+
+/* h1:hover{
+    color: gray;
+}
+
+button:active{
+    background-color: rgb(133, 199, 28);
+}
+
+input:focus{
+    background-color: blueviolet;
+}
+
+p:nth-child(4){
+    color: red;
+} */
+/* p{
+    width: fit-content;
+    position: relative;
+}
+
+p::before{
+    position: absolute;
+    top: 100%;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: red;
+} */
+/* p::after{
+    content: '';
+} */
+/* #box{
+    display: flex;
+    justify-content: space-between ;
+    width: 300px;
+    height: 300px;
+    background-color: red; */
+    /* background-image: url(https://plus.unsplash.com/premium_photo-1680687013886-c41450611816?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWluaW1pbGlzdGljJTIwcGxhbnR8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    background-position: center; */
+/* }
+#one{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+#two{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(106, 234, 77);
+}
+#three{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(74, 222, 232);
+} */
+
+/* #cube{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+} */
+/* #car1{
+    width: 10px;
+    height: 140px;
+    background-color: aqua;
+}
+#car2{
+    position: relative;
+    width: 80px;
+    height: 120px;
+    background-color: rgb(30, 169, 81);
+}
+#car3{
+    position: absolute;
+    width: 50px;
+    height: 90px;
+    background-color: rgb(175, 48, 195);
+} */
+/* p{
+    display: inli ne;
+} */
+
+/* #text{
+    font-size: 12px;
+    width: 20em;
+    height: 20em;
+    background-color: red;
+} */
+
+/* #practice{
+    width: 600px;
+    height: 400px;
+    background-color: red;
+}
+
+#child{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+} */
+
+/* div{
+    width: 400px;
+    height: 200px;
+    background-color: red;
+} */
+
+/* #box{
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    border: 30px solid black;
+    border-radius: 5px;
+    background-color: rgb(214, 147, 147);
+} */
+
+/* .main{
+    width: 300px;
+    background-color: red;
+} */
