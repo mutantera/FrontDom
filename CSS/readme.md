@@ -35,5 +35,3 @@ pseudo-class =
                 :nth-child(n)
 
 Display Grid - Two dimensional , layout banaby mein kaam aata hai.
-
-span :- inline property hota hai joki kuch alag property deta hai.

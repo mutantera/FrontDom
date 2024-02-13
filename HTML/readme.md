@@ -1,35 +1,34 @@
-HTML :- content of page 
-for boilerplate code :- html:5,!enter
-tags :- <> in dono kay bich me kuch bhi likhingay wo ush type kaa tag banjayega.
+## HTML Basics
 
-<!DOCTYPE html> - html5
-<html lang="en">  - rapper
-<head> - instruction 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>  - pagetitle
+### Boilerplate Code
+```html
+<!DOCTYPE html> <!-- HTML5 doctype declaration -->
+<html lang="en"> <!-- Language declaration -->
+<head> <!-- Header section -->
+    <meta charset="UTF-8"> <!-- Character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Viewport for responsive design -->
+    <title>Document</title> <!-- Page title -->
 </head>
-<body>
-    website par jo bhi dikhana hai wo uske aandar likhinagay
+<body> <!-- Body section -->
+    <!-- Content of the webpage goes here -->
 </body>
 </html>
-
-<Sup> - superscript (exponential)
-<sub> - subscript ()
-<hr> - horizontal row (line)
-<ol> - ordered list
-<ul> - unordered list
-<a href=""> - Anchor Tag
-<label for=""> - iske aandar kuch bhi likha sakte hai 
-id - kisi element ko individually select karwane may
-
-
-header - pahela section of website
-nav - navigation boilerplate
-main - poori website isi mein aaiyegi
-section - page of website
-article - website kay aandar sub element hoingay unko article mein daal sakte hai
-aside - side meinn ususlly fixed element hote hai usually
-footer - footer banay kay liye
-audio - audio support dene kay liye
-video - video
+Tags
+<Sup>: Superscript (exponential)
+<sub>: Subscript
+<hr>: Horizontal rule (line)
+<ol>: Ordered list
+<ul>: Unordered list
+<a href="">: Anchor tag (link)
+<label for="">: Label tag (used with form elements)
+id: Attribute to individually select an element
+Structural Tags
+<header>: Represents the first section of a webpage, often containing a logo, navigation, etc.
+<nav>: Used for navigation elements
+<main>: Contains the main content of the webpage
+<section>: Represents a section of a webpage
+<article>: Represents a self-contained piece of content that could be independently distributed and reused
+<aside>: Represents content that is tangentially related to the content around it, often displayed as a sidebar
+<footer>: Represents the footer of a webpage, typically containing information such as copyright, contact details, etc.
+<audio>: Used to embed sound content in documents
+<video>: Used to embed video content in documents
