@@ -1,37 +1,49 @@
-In CSS 
-color = text color
-background color = background color
-Units - px , % , vw , vh , em , rem
-      * px - kaam use kare hai because ye page kay pure design ko kharab kar deta hai iski jagah 'vw' use karte hai.
-      * % - jitna total hai uska hissa jaisay 
-       width 70% matlab screen kaa 70% hissa.
-      * vw/vh - ye hamesha screen se value latay hai , website responsive bananay kay liye aacha hai.
-      * em - ye depend karta hai us element ke font size par, aur ye agar parent ko deta hai tow children pe bhi apply hota hai.
-      * rem - ye html tag key font size pe depend kartaa hai.
-max width - isse jaya litna bhi width de lo nahi jayegaa
-min width - isse kam kitna bhi hoo nahi jayegaa
-font-family = sans serif , serif 
-            sans serif - jish font ke aandar koi edges nahi hoo
-            serif - jish font ke aandar edges hoo
-text-transform - ye har letter ka pahela alphabet ko captlise kar dega
-padding - ye element ko border daydeta hai , box ke bahar lagta hai 
-margin - ye dow element ke bich mein apply ho sakta hai , box ke aandar lagta hai ye 
-display - block , inline 
-         block - pura space ye leta hai agar khali hoga phir bhi
-         inline - agar koi space khali ho tow waha dusra paragraph aa sakta hai. agar do inline element hai this will not allow to increase width and height
-position
-flexbox - jub bhi element ko agal-bagal cahate hoo us case mein ye kaam aata hai. 'x-asis' - main , 'y-asis' - cross . isme ek dikkat hai ek time mein ek hi direction mein kaam kar sakte hai (single directional property).
+## CSS Basics
 
-pseudo-element = 
-                ::before
-                ::after
-                ::first-line
-                ::first-letter
-                ::selection - select karaingay element ko uska color change hoo jayegaa
-pseudo-class = 
-                :hover - jub mouse jayegaa uspe tub effect dikhiagay
-                :active - mouse kay click karne pe hota hai
-                :focus - 
-                :nth-child(n)
+- **color**: Specifies the text color.
+- **background color**: Sets the background color.
 
-Display Grid - Two dimensional , layout banaby mein kaam aata hai.
+### Units
+- **px**: Avoided for overall design as it can distort; prefer using 'vw' instead.
+- **%**: Represents a portion of the whole; e.g., `width: 70%` means 70% of the screen width.
+- **vw/vh**: Always relative to the screen, useful for responsive design.
+- **em**: Depends on the element's font size; if set on parent, applies to children as well.
+- **rem**: Depends on the font size of the HTML tag.
+
+### Width Constraints
+- **max-width**: Sets the maximum width; won't exceed this value.
+- **min-width**: Sets the minimum width; won't shrink below this value.
+
+### Typography
+- **font-family**: Choose between 'sans serif' (no edges) and 'serif' (with edges).
+- **text-transform**: Capitalizes the first letter of each word.
+
+### Spacing
+- **padding**: Adds space around the element, outside of the border.
+- **margin**: Adds space between elements, inside the border.
+
+### Display
+- **display**:
+  - **block**: Takes up full space, even if empty.
+  - **inline**: Allows other elements to be beside it; won't increase width and height if there are two inline elements.
+
+### Positioning
+- **position**: Specifies the positioning method for an element.
+
+### Flexbox
+- Useful for arranging elements in a single direction.
+
+### Pseudo-elements
+- **::before**, **::after**: Inserts content before or after the selected element.
+- **::first-line**: Styles the first line of a block-level element.
+- **::first-letter**: Styles the first letter of a block-level element.
+- **::selection**: Styles the portion of the document that is selected.
+
+### Pseudo-classes
+- **:hover**: Applies styles when the mouse hovers over the element.
+- **:active**: Applies styles when the element is being activated.
+- **:focus**: Applies styles when the element is focused.
+- **:nth-child(n)**: Selects elements based on their order in relation to siblings.
+
+### Grid Layout
+- Provides a two-dimensional layout capability, useful for complex layouts.
