@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'gilroy';
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#box1{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    position: relative;
+    animation-name: box-anime;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(89, 228, 110);
+    position: relative;
+    animation-name: box-anime;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+/* img{
+    height: 300px;
+    position: absolute;
+    animation-name: ball;
+    animation-duration: 2s;
+    animation-delay: 1s;
+} */
+
+/* @keyframes ball {
+    0%{
+        left: 0;
+        top: 0;
+        rotate: 0deg;
+    }
+    50%{
+        left: 80%;
+        top: 0;
+        rotate: 360deg;
+    }
+    100%{
+        left: 80%;
+        top: 50%;
+        rotate: 0deg;
+    }
+} */
+
+@keyframes box-anime {
+    from{
+        left: 0;
+    }
+    to{
+        left: 75%;
+    }
+}
