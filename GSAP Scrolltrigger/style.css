@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+/* #page1{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#circle{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(lightblue,royalblue);
+    border-radius: 50%;
+} */
+
+/* --> Pin Property */
+/* #page1{
+    height: 100%;
+    width: 100%;
+    background-color: peachpuff;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: navy;
+}
+#page2 img{
+    height: 100%;
+    width: 20%;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(59, 225, 120);
+} */
+body{
+    overflow-x: hidden;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(76, 185, 221);
+}
+#page2 h1{
+    font-size: 41vw;
+    font-weight: 600;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
